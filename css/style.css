@@ -1,0 +1,132 @@
+/* 1440 */
+.conteiner {
+  width: 100%;
+  max-width: 1440px;
+  background-image: url(../image/Rectangle\ 3.png);
+
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  padding: 64px 140px;
+}
+
+.main_section {
+  padding: 40px;
+  display: flex;
+  column-gap: 66px;
+  background: #1c1325cc;
+  border: 1px solid #b052b5c9;
+  backdrop-filter: blur(10px);
+}
+
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+  /* background-color: green; */
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 4px 4px #f90cef;
+  margin-bottom: 80px;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  column-gap: 24px;
+}
+
+input {
+  width: 50%;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #b052b5;
+  background-color: transparent;
+  padding: 11px 22px;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 25px;
+}
+
+::placeholder {
+  color: #9e8d9eb5;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  margin-bottom: 8px;
+}
+
+textarea {
+  background-color: transparent;
+  padding: 11px 22px;
+  height: 112px;
+  border-radius: 8px;
+  resize: none;
+  border: 1px solid #b052b5;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 25px;
+}
+
+.form_button {
+  height: 64px;
+  border-radius: 16px;
+  background-color: #f30aea;
+  color: white;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.map_section {
+  width: 50%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 72px;
+  align-items: center;
+}
+
+.button_section {
+  display: flex;
+  column-gap: 72px;
+}
+
+.contact_button {
+  border: 2px solid #ffffff;
+  background: #f30aea;
+  border-radius: 8px;
+  padding: 12px;
+  width: 48px;
+  height: 48px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+
+}

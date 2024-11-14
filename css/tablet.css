@@ -1,0 +1,48 @@
+/* 768 - 481  */
+
+@media screen and (max-width: 481px) {
+  .conteiner {
+    padding: 32px 20px;
+  }
+
+  h3 {
+    margin-bottom: 40px;
+  }
+  input {
+    width: 100%;
+  }
+  form {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 36px; */
+    /* background-color: green; */
+  }
+
+  .input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 36px;
+    margin-bottom: 36px;
+  }
+
+  input {
+    margin-bottom: 0px;
+  }
+  textarea {
+    margin-bottom: 36px;
+  }
+
+  .map_section {
+    row-gap: 40px;
+  }
+
+  .button_section {
+    column-gap: 42px;
+  }
+
+  iframe {
+    height: 200px;
+  }
+}

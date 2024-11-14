@@ -1,0 +1,30 @@
+/* 480 - 320 */
+@media screen and (max-width: 377px) {
+  .conteiner {
+    padding: 16px 8px;
+  }
+
+  .main_section {
+    padding: 16px 8px;
+    row-gap: 48px;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 24px;
+  }
+
+  .input {
+    row-gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  textarea {
+    margin-bottom: 24px;
+  }
+
+  .map_section {
+    row-gap: 24px;
+  }
+}

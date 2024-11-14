@@ -1,0 +1,35 @@
+/* 1439 - 769 */
+@media screen and (max-width: 1001px) {
+  .conteiner {
+    padding: 64px 24px;
+  }
+}
+
+  /* 800 */
+
+@media screen and (max-width: 801px) {
+  .conteiner {
+    padding: 32px 24px;
+  }
+
+  .main_section {
+    padding: 40px 16px;
+    flex-direction: column;
+    row-gap: 64px;
+  }
+
+
+
+  form {
+    width: 100%;
+   
+  }
+  .map_section {
+    width: 100%;
+ 
+  }
+ 
+  iframe {
+      height: 338px;
+    }
+}
