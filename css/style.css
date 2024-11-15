@@ -21,7 +21,7 @@
 }
 
 form {
-  width: 50%;
+  width: 520px;
   display: flex;
   flex-direction: column;
 
@@ -78,6 +78,7 @@ label {
 }
 
 textarea {
+  width: 100%;
   background-color: transparent;
   padding: 11px 22px;
   height: 112px;
@@ -102,7 +103,7 @@ textarea {
   text-decoration-skip-ink: none;
 }
 .map_section {
-  width: 50%;
+  width: 494px;
   /* background-color: red; */
   display: flex;
   flex-direction: column;
@@ -113,7 +114,9 @@ textarea {
 .button_section {
   display: flex;
   column-gap: 72px;
+
 }
+
 
 .contact_button {
   border: 2px solid #ffffff;
